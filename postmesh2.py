@@ -7,11 +7,11 @@ import requests
 import time
 
 from pathlib import Path
-txt = Path('readme.txt').read_text()
+txt = Path('<TEXTFILE>.txt').read_text()
 
 payload = {'action': 'send_message',
            'message': txt,
-           'call_sign': 'K1YMI',
+           'call_sign': '<YourCallsign>',
            'epoch': int(time.time()),
            'channel': 'test'}
 
