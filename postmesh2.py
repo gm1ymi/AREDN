@@ -1,4 +1,4 @@
-# Converted PHP script from N2MH
+# Ported Python script from PHP sent to me from N2MH
 # Reads contents of 'readme.txt' and posts to MeshChat
 # Edit callsign, channel, MeshChat_IP and name of textfile as required
 # K1YMI 27/1/2023
